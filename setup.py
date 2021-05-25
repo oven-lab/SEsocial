@@ -4,7 +4,7 @@ setup(
     packages=find_packages(include=['sesocial']),
     version='0.2.0',
     description='A python library for verifying swedish social security numbers',
-    author='WBDVP',
+    author='WaldemarBjornstrom',
     license='MIT',
     classifiers=[
     'License :: OSI Approved :: MIT License',
