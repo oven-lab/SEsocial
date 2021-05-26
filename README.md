@@ -1,6 +1,6 @@
 # SEsocial
 
-A python repository for verifying swedish social security numbers.
+A python repository for verifying and generating swedish social security numbers.
 
 ## Installation
 
@@ -14,6 +14,8 @@ from sesocial import se
 se.verify("yymmddxxxx") # Returns True or False
 
 se.gender("yymmddxxxx") # Returns Male or Female
+
+se.generate() # Returns format yymmddxxxx
 ```
 
 ## License
