@@ -4,7 +4,10 @@ A python repository for verifying and generating swedish social security numbers
 
 ## Installation
 
-`pip install SE-social`
+There is an issue where you can't import the library on newer versions.
+Attention! The generate function doesn't exist in the 1.0.0 version.
+
+`pip install SE-social==1.0.0`
 
 ## Usage
 
