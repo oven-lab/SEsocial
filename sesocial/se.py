@@ -1,5 +1,5 @@
 from random import randint
-from random import seed
+# from random import seed
 
 days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 output = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
