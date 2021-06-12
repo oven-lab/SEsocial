@@ -117,8 +117,6 @@ def generate() -> str:
     numlist = list(map(int, str(a_string)))
     if len(numlist) == 13:
         new = generate()
-        print("Recurse")
-        print(new)
         newnumlist = list(map(int, str(new)))
         if len(newnumlist) == 12:
             return new
