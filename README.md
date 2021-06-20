@@ -4,10 +4,15 @@ A python repository for verifying and generating swedish social security numbers
 
 ## Installation
 
-There is an issue where you can't import the library on newer versions.
-Attention! The generate function doesn't exist in the 1.0.0 version.
+### Easy:
 
-`pip install SE-social==1.0.0`
+`pip install SE-social`
+
+### Advanced:
+
+`git clone http://github.com/WaldemarBjornstrom/SEsocial.git`
+
+Then go to the SEsocial directory you just downloaded and copy the sesocial folder into your project.
 
 ## Usage
 
@@ -23,4 +28,4 @@ se.generate() # Returns format yymmddxxxx
 
 ## License
 
-This project uses the MIT License. See [LICENSE](LICENSE "LICENSE")
+This project lies under the MIT License. See [LICENSE](LICENSE "LICENSE")
