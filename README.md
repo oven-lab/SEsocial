@@ -17,14 +17,17 @@ Then go to the SEsocial directory you just downloaded and copy the sesocial fold
 ## Usage
 
 ```python
-from sesocial import se
+import sesocial
 
-se.verify("yymmddxxxx") # Returns True or False
+sesocial.verify('yymmddxxxx') # Returns True or False
 
-se.gender("yymmddxxxx") # Returns Male or Female
+sesocial.gender('yymmddxxxx') # Returns Male or Female
 
-se.generate() # Returns format yymmddxxxx
+sesocial.generate() # Returns format yymmddxxxx
 ```
+
+Note: You could also  `import sesocial as a` or swap out a to anyting you like.
+And then use the commands like `a.verify('yymmddxxxx')`
 
 ## License
 
