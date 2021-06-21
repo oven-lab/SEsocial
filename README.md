@@ -6,7 +6,7 @@ A python repository for verifying and generating swedish social security numbers
 
 ### Easy:
 
-`pip install SE-social`
+`pip install SE-social==1.2.0.dev1`
 
 ### Advanced:
 
