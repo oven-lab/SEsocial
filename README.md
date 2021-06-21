@@ -24,7 +24,10 @@ sesocial.verify('yymmddxxxx') # Returns True or False
 sesocial.gender('yymmddxxxx') # Returns Male or Female
 
 sesocial.generate() # Returns format yymmddxxxx
+
 ```
+
+OPTIONAL: You can add age and gender to `sesocial.generate(age, gender)`
 
 Note: You could also  `import sesocial as a` or swap out a to anyting you like.
 And then use the commands like `a.verify('yymmddxxxx')`
