@@ -54,7 +54,7 @@ def gender(input) -> str:
     return gen
 
 def generate(age = 6969, genderstr = 'none') -> str:
-    
+
     if age == 6969:
         output[0] = random.randint(1, 2)
             ##year
@@ -108,12 +108,15 @@ def generate(age = 6969, genderstr = 'none') -> str:
     if genderstr == 'none':
         print("random active")
         output[10] = random.randint(0, 9)
-    elif genderstr == 'male':
+    elif genderstr.lower() == 'male':
         print("male active")
         output[10] = random.choice([1, 3, 5, 7, 9])
-    elif genderstr == 'female':
+    elif genderstr.lower() == 'female':
         print("female active")
         output[10] = random.choice([0, 2, 4, 6, 8])
+    else:
+        print("None active")
+        output[10] = random.randint(0, 9)
 
     counter = 0 
     Sum = 0

@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='SE_social',
     packages=find_packages(include=['sesocial']),
-    version='1.2.1',
+    version='1.2.2',
     description='A python library for verifying and generating swedish social security numbers',
     long_description=long_description,
     long_description_content_type='text/markdown',
